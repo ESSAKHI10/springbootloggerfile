@@ -15,6 +15,9 @@ import java.util.*;
 
 @Service
 public class LoggingServiceImpl implements ILoginSerivce {
+    /*
+     * choose the logger type 
+     */
 
     // Logger logger = LoggerFactory.getLogger("LoggingServiceImpl");
 

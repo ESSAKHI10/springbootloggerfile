@@ -4847,4 +4847,202 @@ Caused by: java.lang.Error: Unresolved compilation problem:
  -- 2023-01-17 15:58:38,180 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-3] Initializing Spring DispatcherServlet 'dispatcherServlet'
  -- 2023-01-17 15:58:38,181 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-3] Initializing Servlet 'dispatcherServlet'
  -- 2023-01-17 15:58:38,183 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-3] Completed initialization in 1 ms
+ -- 2023-01-17 16:08:59,111 INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+ -- 2023-01-17 16:08:59,316 INFO org.apache.juli.logging.DirectJDKLog [Thread-314] Pausing ProtocolHandler ["http-nio-8080"]
+ -- 2023-01-17 16:08:59,317 INFO org.apache.juli.logging.DirectJDKLog [Thread-314] Stopping service [Tomcat]
+ -- 2023-01-17 16:08:59,329 INFO org.apache.juli.logging.DirectJDKLog [Thread-314] Destroying Spring FrameworkServlet 'dispatcherServlet'
+ -- 2023-01-17 16:08:59,416 INFO org.apache.juli.logging.DirectJDKLog [Thread-314] Stopping ProtocolHandler ["http-nio-8080"]
+ -- 2023-01-17 16:08:59,423 INFO org.apache.juli.logging.DirectJDKLog [Thread-314] Destroying ProtocolHandler ["http-nio-8080"]
+ -- 2023-01-17 16:08:59,451 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-314] Closing JPA EntityManagerFactory for persistence unit 'default'
+ -- 2023-01-17 16:08:59,533 INFO com.zaxxer.hikari.HikariDataSource [Thread-314] HikariPool-74 - Shutdown initiated...
+ -- 2023-01-17 16:08:59,566 INFO com.zaxxer.hikari.HikariDataSource [Thread-314] HikariPool-74 - Shutdown completed.
+ -- 2023-01-17 16:09:00,165 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting LogtestapiApplication using Java 17.0.5 on DESKTOP-JUNKFNU with PID 15568 (C:\Users\dell\SPRING\logtestapi\target\classes started by dell in C:\Users\dell\SPRING\logtestapi)
+ -- 2023-01-17 16:09:00,165 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.7, Spring v5.3.24
+ -- 2023-01-17 16:09:00,166 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+ -- 2023-01-17 16:09:01,488 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ -- 2023-01-17 16:09:01,546 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 56 ms. Found 1 JPA repository interfaces.
+ -- 2023-01-17 16:09:01,810 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+ -- 2023-01-17 16:09:01,811 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+ -- 2023-01-17 16:09:01,812 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+ -- 2023-01-17 16:09:01,814 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.70]
+ -- 2023-01-17 16:09:01,855 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+ -- 2023-01-17 16:09:01,856 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1687 ms
+ -- 2023-01-17 16:09:01,946 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+ -- 2023-01-17 16:09:01,964 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-75 - Starting...
+ -- 2023-01-17 16:09:01,984 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-75 - Start completed.
+ -- 2023-01-17 16:09:01,985 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+ -- 2023-01-17 16:09:02,056 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ -- 2023-01-17 16:09:02,059 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+ -- 2023-01-17 16:09:02,138 WARN org.springframework.context.support.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'loggingServiceImpl' defined in file [C:\Users\dell\SPRING\logtestapi\target\classes\com\example\logtestapi\Service\Imp\LoggingServiceImpl.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.logtestapi.Service.Imp.LoggingServiceImpl]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	Syntax error on token "/", delete this token
+
+ -- 2023-01-17 16:09:02,139 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Closing JPA EntityManagerFactory for persistence unit 'default'
+ -- 2023-01-17 16:09:02,142 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-75 - Shutdown initiated...
+ -- 2023-01-17 16:09:02,147 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-75 - Shutdown completed.
+ -- 2023-01-17 16:09:02,149 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Stopping service [Tomcat]
+ -- 2023-01-17 16:09:02,155 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ -- 2023-01-17 16:09:02,172 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+ -org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'loggingServiceImpl' defined in file [C:\Users\dell\SPRING\logtestapi\target\classes\com\example\logtestapi\Service\Imp\LoggingServiceImpl.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.logtestapi.Service.Imp.LoggingServiceImpl]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	Syntax error on token "/", delete this token
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.example.logtestapi.LogtestapiApplication.main(LogtestapiApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.logtestapi.Service.Imp.LoggingServiceImpl]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	Syntax error on token "/", delete this token
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1326)
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	Syntax error on token "/", delete this token
+
+	at com.example.logtestapi.Service.Imp.LoggingServiceImpl.<init>(LoggingServiceImpl.java:18)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211)
+	... 24 common frames omitted
+- 2023-01-17 16:09:05,775 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting LogtestapiApplication using Java 17.0.5 on DESKTOP-JUNKFNU with PID 15568 (C:\Users\dell\SPRING\logtestapi\target\classes started by dell in C:\Users\dell\SPRING\logtestapi)
+ -- 2023-01-17 16:09:05,775 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.7, Spring v5.3.24
+ -- 2023-01-17 16:09:05,776 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+ -- 2023-01-17 16:09:05,973 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ -- 2023-01-17 16:09:05,988 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 14 ms. Found 1 JPA repository interfaces.
+ -- 2023-01-17 16:09:06,075 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+ -- 2023-01-17 16:09:06,078 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+ -- 2023-01-17 16:09:06,078 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+ -- 2023-01-17 16:09:06,079 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.70]
+ -- 2023-01-17 16:09:06,104 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+ -- 2023-01-17 16:09:06,104 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 325 ms
+ -- 2023-01-17 16:09:06,152 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+ -- 2023-01-17 16:09:06,156 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-76 - Starting...
+ -- 2023-01-17 16:09:06,163 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-76 - Start completed.
+ -- 2023-01-17 16:09:06,164 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+ -- 2023-01-17 16:09:06,185 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ -- 2023-01-17 16:09:06,186 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+ -- 2023-01-17 16:09:06,290 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ -- 2023-01-17 16:09:06,395 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+ -- 2023-01-17 16:09:06,399 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+ -- 2023-01-17 16:09:06,407 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+ -- 2023-01-17 16:09:06,410 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started LogtestapiApplication in 0.695 seconds (JVM running for 5814.342)
+ -- 2023-01-17 16:09:06,411 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+ -- 2023-01-17 16:09:08,269 INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+ -- 2023-01-17 16:09:08,293 INFO org.apache.juli.logging.DirectJDKLog [Thread-318] Pausing ProtocolHandler ["http-nio-8080"]
+ -- 2023-01-17 16:09:08,294 INFO org.apache.juli.logging.DirectJDKLog [Thread-318] Stopping service [Tomcat]
+ -- 2023-01-17 16:09:08,296 INFO org.apache.juli.logging.DirectJDKLog [Thread-318] Stopping ProtocolHandler ["http-nio-8080"]
+ -- 2023-01-17 16:09:08,297 INFO org.apache.juli.logging.DirectJDKLog [Thread-318] Destroying ProtocolHandler ["http-nio-8080"]
+ -- 2023-01-17 16:09:08,299 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-318] Closing JPA EntityManagerFactory for persistence unit 'default'
+ -- 2023-01-17 16:09:08,300 INFO com.zaxxer.hikari.HikariDataSource [Thread-318] HikariPool-76 - Shutdown initiated...
+ -- 2023-01-17 16:09:08,305 INFO com.zaxxer.hikari.HikariDataSource [Thread-318] HikariPool-76 - Shutdown completed.
+ -- 2023-01-17 16:09:08,450 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting LogtestapiApplication using Java 17.0.5 on DESKTOP-JUNKFNU with PID 15568 (C:\Users\dell\SPRING\logtestapi\target\classes started by dell in C:\Users\dell\SPRING\logtestapi)
+ -- 2023-01-17 16:09:08,451 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.7, Spring v5.3.24
+ -- 2023-01-17 16:09:08,451 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+ -- 2023-01-17 16:09:08,761 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ -- 2023-01-17 16:09:08,782 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 16 ms. Found 1 JPA repository interfaces.
+ -- 2023-01-17 16:09:08,897 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+ -- 2023-01-17 16:09:08,898 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+ -- 2023-01-17 16:09:08,898 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+ -- 2023-01-17 16:09:08,898 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.70]
+ -- 2023-01-17 16:09:08,920 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+ -- 2023-01-17 16:09:08,921 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 465 ms
+ -- 2023-01-17 16:09:08,951 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+ -- 2023-01-17 16:09:08,957 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-77 - Starting...
+ -- 2023-01-17 16:09:08,962 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-77 - Start completed.
+ -- 2023-01-17 16:09:08,963 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+ -- 2023-01-17 16:09:08,988 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ -- 2023-01-17 16:09:08,989 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+ -- 2023-01-17 16:09:09,077 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ -- 2023-01-17 16:09:09,172 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+ -- 2023-01-17 16:09:09,191 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+ -- 2023-01-17 16:09:09,197 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+ -- 2023-01-17 16:09:09,199 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started LogtestapiApplication in 0.791 seconds (JVM running for 5817.132)
+ -- 2023-01-17 16:09:09,200 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+ -- 2023-01-17 16:09:13,688 INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+ -- 2023-01-17 16:09:13,706 INFO org.apache.juli.logging.DirectJDKLog [Thread-325] Pausing ProtocolHandler ["http-nio-8080"]
+ -- 2023-01-17 16:09:13,707 INFO org.apache.juli.logging.DirectJDKLog [Thread-325] Stopping service [Tomcat]
+ -- 2023-01-17 16:09:13,709 INFO org.apache.juli.logging.DirectJDKLog [Thread-325] Stopping ProtocolHandler ["http-nio-8080"]
+ -- 2023-01-17 16:09:13,711 INFO org.apache.juli.logging.DirectJDKLog [Thread-325] Destroying ProtocolHandler ["http-nio-8080"]
+ -- 2023-01-17 16:09:13,717 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-325] Closing JPA EntityManagerFactory for persistence unit 'default'
+ -- 2023-01-17 16:09:13,720 INFO com.zaxxer.hikari.HikariDataSource [Thread-325] HikariPool-77 - Shutdown initiated...
+ -- 2023-01-17 16:09:13,723 INFO com.zaxxer.hikari.HikariDataSource [Thread-325] HikariPool-77 - Shutdown completed.
+ -- 2023-01-17 16:09:13,852 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting LogtestapiApplication using Java 17.0.5 on DESKTOP-JUNKFNU with PID 15568 (C:\Users\dell\SPRING\logtestapi\target\classes started by dell in C:\Users\dell\SPRING\logtestapi)
+ -- 2023-01-17 16:09:13,853 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.7, Spring v5.3.24
+ -- 2023-01-17 16:09:13,853 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+ -- 2023-01-17 16:09:13,985 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ -- 2023-01-17 16:09:13,995 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interfaces.
+ -- 2023-01-17 16:09:14,087 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+ -- 2023-01-17 16:09:14,092 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+ -- 2023-01-17 16:09:14,093 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+ -- 2023-01-17 16:09:14,093 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.70]
+ -- 2023-01-17 16:09:14,128 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+ -- 2023-01-17 16:09:14,128 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 274 ms
+ -- 2023-01-17 16:09:14,162 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+ -- 2023-01-17 16:09:14,167 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-78 - Starting...
+ -- 2023-01-17 16:09:14,172 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-78 - Start completed.
+ -- 2023-01-17 16:09:14,173 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+ -- 2023-01-17 16:09:14,207 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ -- 2023-01-17 16:09:14,209 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+ -- 2023-01-17 16:09:14,293 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ -- 2023-01-17 16:09:14,363 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+ -- 2023-01-17 16:09:14,368 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+ -- 2023-01-17 16:09:14,372 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+ -- 2023-01-17 16:09:14,374 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started LogtestapiApplication in 0.547 seconds (JVM running for 5822.306)
+ -- 2023-01-17 16:09:14,375 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+ -- 2023-01-17 16:56:14,268 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-78 housekeeper] HikariPool-78 - Thread starvation or clock leap detected (housekeeper delta=12m59s462ms484µs700ns).
+ -- 2023-01-17 17:10:44,588 INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+ -- 2023-01-17 17:10:44,913 INFO org.apache.juli.logging.DirectJDKLog [Thread-329] Pausing ProtocolHandler ["http-nio-8080"]
+ -- 2023-01-17 17:10:44,918 INFO org.apache.juli.logging.DirectJDKLog [Thread-329] Stopping service [Tomcat]
+ -- 2023-01-17 17:10:45,124 INFO org.apache.juli.logging.DirectJDKLog [Thread-329] Stopping ProtocolHandler ["http-nio-8080"]
+ -- 2023-01-17 17:10:45,146 INFO org.apache.juli.logging.DirectJDKLog [Thread-329] Destroying ProtocolHandler ["http-nio-8080"]
+ -- 2023-01-17 17:10:45,206 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-329] Closing JPA EntityManagerFactory for persistence unit 'default'
+ -- 2023-01-17 17:10:45,291 INFO com.zaxxer.hikari.HikariDataSource [Thread-329] HikariPool-78 - Shutdown initiated...
+ -- 2023-01-17 17:10:45,307 INFO com.zaxxer.hikari.HikariDataSource [Thread-329] HikariPool-78 - Shutdown completed.
+ -- 2023-01-17 17:10:46,205 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting LogtestapiApplication using Java 17.0.5 on DESKTOP-JUNKFNU with PID 15568 (C:\Users\dell\SPRING\logtestapi\target\classes started by dell in C:\Users\dell\SPRING\logtestapi)
+ -- 2023-01-17 17:10:46,206 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.7, Spring v5.3.24
+ -- 2023-01-17 17:10:46,206 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+ -- 2023-01-17 17:10:46,443 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ -- 2023-01-17 17:10:46,461 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 17 ms. Found 1 JPA repository interfaces.
+ -- 2023-01-17 17:10:46,642 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+ -- 2023-01-17 17:10:46,643 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+ -- 2023-01-17 17:10:46,643 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+ -- 2023-01-17 17:10:46,644 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.70]
+ -- 2023-01-17 17:10:46,699 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+ -- 2023-01-17 17:10:46,700 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 492 ms
+ -- 2023-01-17 17:10:46,814 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+ -- 2023-01-17 17:10:46,833 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-79 - Starting...
+ -- 2023-01-17 17:10:46,845 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-79 - Start completed.
+ -- 2023-01-17 17:10:46,846 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+ -- 2023-01-17 17:10:46,978 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ -- 2023-01-17 17:10:46,981 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+ -- 2023-01-17 17:10:47,208 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ -- 2023-01-17 17:10:47,332 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+ -- 2023-01-17 17:10:47,340 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+ -- 2023-01-17 17:10:47,352 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+ -- 2023-01-17 17:10:47,355 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started LogtestapiApplication in 1.221 seconds (JVM running for 9515.307)
+ -- 2023-01-17 17:10:47,356 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
  -
