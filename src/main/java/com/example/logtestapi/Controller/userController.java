@@ -22,6 +22,17 @@ public class userController {
     @Autowired
     private IUserService userService;
 
+    @GetMapping("/sayHello")
+    public ResponseEntity<String> sayHello() {
+        System.out.println("hello ");
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        return new ResponseEntity<String>("Hello", HttpStatus.OK);
+    }
+
     @PostMapping("/create")
     public ResponseEntity<User> newUser(@RequestBody User user) {
         User newUser = userService

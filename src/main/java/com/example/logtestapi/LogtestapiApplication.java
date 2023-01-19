@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class LogtestapiApplication {
 
 	public static void main(String[] args) {
+		System.out.println("me first");
 		SpringApplication.run(LogtestapiApplication.class, args);
 	}
 

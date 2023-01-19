@@ -1,20 +1,20 @@
 package com.example.logtestapi.Service.Imp;
 
 import org.springframework.stereotype.Service;
-import org.springframework.web.util.ContentCachingRequestWrapper;
+// import org.springframework.web.util.ContentCachingRequestWrapper;
 
 import com.example.logtestapi.Service.ILoginSerivce;
 
 // import org.slf4j.Logger;
 // import org.slf4j.LoggerFactory;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+// import org.apache.logging.log4j.LogManager;
+// import org.apache.logging.log4j.Logger;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import java.io.UnsupportedEncodingException;
-import java.util.*;
+// import java.io.UnsupportedEncodingException;
+// import java.util.*;
 
 @Service
 public class LoggingServiceImpl implements ILoginSerivce {
@@ -24,7 +24,7 @@ public class LoggingServiceImpl implements ILoginSerivce {
 
     // Logger logger = LoggerFactory.getLogger("LoggingServiceImpl");
 
-    Logger logger = LogManager.getLogger("LoggingServiceImpl");
+    // Logger logger = LogManager.getLogger("LoggingServiceImpl");
 
     /*
      * this function display the request logger
@@ -92,36 +92,38 @@ public class LoggingServiceImpl implements ILoginSerivce {
         // respMessage);
     }
 
-    private Map<String, String> getHeaders(HttpServletResponse response) {
-        Map<String, String> headers = new HashMap<>();
-        Collection<String> headerMap = response.getHeaderNames();
-        System.out.println("---------date ----------");
-        for (String str : headerMap) {
-            System.out.println(str);
-            headers.put(str, response.getHeader(str));
-        }
-        System.out.println("---------date ----------");
-        return headers;
-    }
+    // private Map<String, String> getHeaders(HttpServletResponse response) {
+    // Map<String, String> headers = new HashMap<>();
+    // Collection<String> headerMap = response.getHeaderNames();
+    // System.out.println("---------date ----------");
+    // for (String str : headerMap) {
+    // System.out.println(str);
+    // headers.put(str, response.getHeader(str));
+    // }
+    // System.out.println("---------date ----------");
+    // return headers;
+    // }
 
-    private Map<String, String> getParameters(HttpServletRequest request) {
-        Map<String, String> parameters = new HashMap<>();
-        Enumeration<String> params = request.getParameterNames();
-        while (params.hasMoreElements()) {
-            String paramName = params.nextElement();
-            String paramValue = request.getParameter(paramName);
-            parameters.put(paramName, paramValue);
-        }
-        return parameters;
-    }
+    // private Map<String, String> getParameters(HttpServletRequest request) {
+    // Map<String, String> parameters = new HashMap<>();
+    // Enumeration<String> params = request.getParameterNames();
+    // while (params.hasMoreElements()) {
+    // String paramName = params.nextElement();
+    // String paramValue = request.getParameter(paramName);
+    // parameters.put(paramName, paramValue);
+    // }
+    // return parameters;
+    // }
 
-    private String getStringValue(byte[] contentAsByteArray, String characterEncoding) {
-        try {
-            return new String(contentAsByteArray, 0, contentAsByteArray.length, characterEncoding);
-        } catch (UnsupportedEncodingException e) {
-            e.printStackTrace();
-        }
-        return "";
-    }
+    // private String getStringValue(byte[] contentAsByteArray, String
+    // characterEncoding) {
+    // try {
+    // return new String(contentAsByteArray, 0, contentAsByteArray.length,
+    // characterEncoding);
+    // } catch (UnsupportedEncodingException e) {
+    // e.printStackTrace();
+    // }
+    // return "";
+    // }
 
 }

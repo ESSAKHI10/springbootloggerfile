@@ -1,3 +1,4 @@
+
 package com.example.logtestapi.Filter;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -45,7 +46,7 @@ public class LoggingFilter extends OncePerRequestFilter {
 	@Override
 	protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain)
 			throws ServletException, IOException {
-		// TODO Auto-generated method stub
+
 		ContentCachingRequestWrapper requestWrapper = new ContentCachingRequestWrapper(request);
 		ContentCachingResponseWrapper responseWrapper = new ContentCachingResponseWrapper(response);
 		try {
@@ -73,5 +74,4 @@ public class LoggingFilter extends OncePerRequestFilter {
 		responseWrapper.copyBodyToResponse();
 
 	}
-
 }
